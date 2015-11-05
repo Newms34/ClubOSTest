@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body ng-app='tweetus' ng-controller='MainController'>
+    <nav class="navbar navbar-default wite">
+        <div class="container-fluid">
+            <div>
+                <ul class="nav navbar-nav">
+                    <li class='navBut'><a href="#">&#127968; Home</a></li>
+                    <li class='navBut'><a href="#">&#128276; Notifications</a></li>
+                    <li class='navBut'><a href="#">&#9889; Moments</a></li>
+                    <li class='navBut'><a href="#">&#9993; Messages</a></li>
+                    <li>
+                        <a href="#"><img src='./img/twitBlu.png' /></a>
+                    </li>
+                    <li class="searchBox">
+                        <input type="text" class="form-control" placeholder="Search Twitter"><button type="button" class="btn btn-primary search-btn"><i class="fa fa-search"></i></button>
+                    </li>
+                    <li><i class="fa fa-pencil"></i></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src='./js/MainController.js'></script>
+</body>
+
+</html>
